@@ -1,0 +1,54 @@
+.trenera {
+margin-top: 150px;
+}
+
+
+.trenera__content {
+
+}
+.trenera__info {
+
+}
+.trenera__list-title {
+font-family: var(--font-family);
+font-weight: 600;
+font-size: clamp(1.875rem, 1.149rem + 2.703vi, 3.125rem);
+line-height: 160%;
+color: #141024;
+justify-content: center;
+display: flex;
+}
+.trenera__list {
+    display: flex;
+    margin: 30px;
+}
+.trenera__item {
+padding: 10px;
+}
+.trenera__title {
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+line-height: 160%;
+color: #141024;
+}
+.trenera__text {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: rgba(20, 16, 36, 0.7);
+}
+.trenera__text-red {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: #d52027;
+}
+@media (max-width:430px) {
+   .trenera__list{
+    flex-direction: column;
+   }
+}
+    

@@ -1,0 +1,46 @@
+.roboschool {
+    margin-top: 100px;
+}
+
+.roboschool__content {
+
+}
+.roboschool__info {
+
+}
+.roboschool__title {
+font-family: var(--font-family);
+font-weight: 600;
+font-size:clamp(1.875rem, 1.149rem + 2.703vi, 3.125rem) ;
+line-height: 160%;
+color: #141024;
+}
+.roboschool__text {
+font-family: var(--font-family);
+font-weight: 400;
+font-size:clamp(1.875rem, 1.149rem + 2.703vi, 3.125rem) ;
+line-height: 160%;
+color: #141024;
+}
+.roboschool__list {
+display: flex;
+margin-top: 50px;
+padding: 0 20px;
+}
+.roboschool__list-item {
+
+}
+.robo__text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: rgba(20, 16, 36, 0.7);
+margin-top: 15px;
+padding: 15px 0;
+}
+@media(max-width:430px){
+    .roboschool__list{
+       flex-direction: column;
+    }
+}

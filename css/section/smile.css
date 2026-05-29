@@ -1,0 +1,57 @@
+.smile {
+    background-color: #141024;
+}
+
+.container {}
+
+.smile__content {
+    display: flex;
+}
+
+.smile__info {
+    
+}
+
+.main-title {
+
+}
+
+.smile__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 160%;
+    color: #fff;
+}
+
+.main-text {
+
+}
+
+.smile__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.btn {
+
+}
+
+.smile__btn {
+    border-radius: 5px;
+    padding: 25px 54px;
+    width: 260px;
+    height: 79px;
+    background: #d52027;
+    margin-top: 25px;
+    border: none;
+    color: #fff;
+}
+@media (max-width: 430px) {
+    
+}
+    

@@ -1,0 +1,46 @@
+.kurs {
+margin-top: 200px;
+background-color: #F9F9F9;
+}
+.kurs__content {
+
+}
+.kurs__info {
+
+}
+.kurs__title {
+font-family: var(--font-family);
+font-weight: 600;
+font-size:24px ;
+line-height: 160%;
+color: #141024;
+margin-top: 20px;
+}
+.kurs__list {
+display: flex;
+}
+.kurs__item {
+padding: 9px 9px;
+}
+.kurs__text {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: rgba(20, 16, 36, 0.7);
+margin-top: 15px;
+}
+.kurs__list-title {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: clamp(1.875rem, 1.149rem + 2.703vi, 3.125rem);
+line-height: 160%;
+color: #141024;
+}
+@media(max-width:430px){
+    .kurs__list{
+        flex-direction: column;
+    }
+}
+
+

@@ -1,0 +1,11 @@
+@import url(basic.css);
+@import url(normalize.css);
+@import url(main.css);
+@import url(section/header.css);
+@import url(section/smile.css);
+@import url(section/roboschool.css);
+@import url(section/kurs.css);
+@import url(section/trenera.css);
+@import url(section/price.css);
+@import url(section/skidka.css);
+@import url(section/footer.css);
